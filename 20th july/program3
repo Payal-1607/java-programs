@@ -25,3 +25,40 @@ class Main
     System.out.println("s1 marks2"+s1.marks2); 
 }
 }
+
+
+
+//preview using marks3 and mark4
+class Student
+{
+       int roll_no;
+       String stu_name;
+       double marks1,marks2,marks3,marks4;
+}
+class Main
+{
+ public static void main (String[] args)
+ {
+    Student s1= new Student();
+   
+    System.out.println("s1 roll no before assigment"+s1.roll_no);
+        s1.roll_no=1001;
+   
+        System.out.println("s1"+s1.stu_name);
+         s1.stu_name="Rohit";
+    
+    s1.marks1=88;
+      System.out.println("s1 marks1"+s1.marks1);
+        
+       s1.marks2=88;
+    System.out.println("s1 marks2"+s1.marks2); 
+    
+    
+       s1.marks3=56;
+      System.out.println("s1 marks3"  +s1.marks3);
+          
+       s1.marks4=65;
+    System.out.println("s1 marks4"+s1.marks4); 
+
+}
+}
