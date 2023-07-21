@@ -1,0 +1,25 @@
+class Student
+{
+    int roll_no;
+    String stu_name;
+   Student(int roll_no1 , String stu_name1)
+{
+    roll_no= roll_no1;
+    stu_name=stu_name1;
+  
+}
+}
+class Main
+{
+    public static void main(String args[])
+    {
+        Student s1=new Student(1001,"Rohith");
+        
+        
+        
+ System.out.println(s1.roll_no+"  "+s1.stu_name);
+
+    }
+}
+
+ 
