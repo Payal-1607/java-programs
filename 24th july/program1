@@ -1,19 +1,15 @@
 package project;
 
  interface printable {
- public void print();
-	
+ public void print();	
 }
 
 package project;
-
  interface showable {
- public void print();
-	
+ public void print();	
 }
 
 package project;
-
 class A7 implements printable,showable 
 {
 public void print()
@@ -28,15 +24,13 @@ public void print()
 
 
 package project;
-
- class Test
+ public class test
 {
 public static void main(String args[])
 {
 	A7 obj= new A7();
 	obj.print();
 	obj.show();
-}
-	
+}	
 }
 
