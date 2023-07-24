@@ -1,0 +1,42 @@
+package project;
+
+ interface printable {
+ public void print();
+	
+}
+
+package project;
+
+ interface showable {
+ public void print();
+	
+}
+
+package project;
+
+class A7 implements printable,showable 
+{
+public void print()
+{
+	System.out.println("Hello");
+}
+	public void show()
+	{
+		System.out.println("welcome");
+	}
+}
+
+
+package project;
+
+ class Test
+{
+public static void main(String args[])
+{
+	A7 obj= new A7();
+	obj.print();
+	obj.show();
+}
+	
+}
+
