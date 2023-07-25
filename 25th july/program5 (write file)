@@ -1,0 +1,20 @@
+package pro;
+import java.io.FileWriter;
+import java.io.IOException;
+public class Project12 {
+        public static void main(String[]args)
+        {
+        	try
+        	{
+        FileWriter myWriter = new FileWriter("D:\\output\\mayu.txt");		
+        myWriter.write("Files in java might be tricky , but its not fun enough!");
+        	myWriter.close();
+        	System.out.println("Successfully wrote to the file.");
+        	}
+       catch (IOException e)
+        	{
+    	   System.out.println("An error occured.");
+    	   e.printStackTrace();
+        	}
+        }	
+}
