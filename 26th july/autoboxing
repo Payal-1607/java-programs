@@ -1,0 +1,12 @@
+package wednesday;
+
+public class Autoboxing {
+public static void main(String args[])
+{
+	Integer i=new Integer(90);
+	if(i<100)
+	{
+		System.out.println(i);
+	}
+}
+}
