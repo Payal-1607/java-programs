@@ -1,0 +1,32 @@
+package thursday1;
+
+import java.util.*;
+public class TestCollection5 {
+	public static void main(String args[])
+	{
+		Stack<String> stack1= new Stack<String>();
+		System.out.println("is ur stack empty" +stack1.empty());
+		stack1.push("ayush");
+		stack1.push("garvit");
+		stack1.push("amit");
+		stack1.push("ashish");
+		stack1.push("garima");
+		
+		System.out.println("elements on the stack"+stack1);
+		System.out.println("element on the top of the stack"+stack1.peek());
+		stack1.pop();
+		
+		System.out.println("elements on the stack"+stack1);
+		System.out.println("element on the top of the stack"+stack1.peek());
+		System.out.println("is ur stack empty"+stack1.empty());
+
+		Iterator<String> itr=stack1.iterator();
+		while(itr.hasNext())
+		{
+			System.out.println(itr.next());
+		}
+	}
+	}
+
+
+
